@@ -1,4 +1,4 @@
-package com.silva.security_service;
+package com.silva.securityservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
