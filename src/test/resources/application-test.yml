@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      enabled: false               # No intentes hablar con el Config Server en tests
+      import-check:
+        enabled: false             # Evita el chequeo estricto de "spring.config.import"
+  config:
+    import: "optional:configserver:"  # Silencia el mensaje aunque el cliente esté apagado
+
